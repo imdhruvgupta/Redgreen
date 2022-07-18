@@ -119,15 +119,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-::selection {
-  background: #ed563b;
-  color: #fff;
-}
 
-::-moz-selection {
-  background: #ed563b;
-  color: #fff;
-}
 
 @media (max-width: 991px) {
   html, body {
@@ -182,7 +174,7 @@ body {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
-  background-color: #ed563b;
+  background-color: #070707;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -191,7 +183,9 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #f9735b;
+  background-color: #fff;
+  color: #070707;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 
@@ -253,10 +247,9 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #fff;
+  color: rgb(6, 206, 56);
   font-size: 32px;
-  font-weight: 800;
-  text-transform: uppercase;
+  font-weight: 500;
   float: left;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -266,8 +259,8 @@ header
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #ed563b;
-  font-weight: 900;
+  color: #f32906;
+  font-weight: 500;
 }
 
 .header-area .main-nav .nav {
@@ -617,7 +610,6 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -646,16 +638,15 @@ banner
   margin-top: 30px;
   margin-bottom: 25px;
   font-size: 84px;
-  text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 200;
   color: #fff;
   letter-spacing: 1px;
 }
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #ed563b;
-  font-weight: 900;
+  color: #fff;
+  font-weight: 300;
 }
 
 
